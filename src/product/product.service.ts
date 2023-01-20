@@ -55,4 +55,5 @@ export class ProductService {
         const deletedProduct = await this.productModel.findByIdAndRemove(id);
         return deletedProduct;
     }
+    
 }
